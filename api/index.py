@@ -103,5 +103,5 @@ def list_animes():
     else:
         return render_template('error.html'), 500  # Página de erro em caso de falha na requisição
     
-if __name__ == '__main__':
-    app.run(debug=True)
+# if __name__ == '__main__':
+#     app.run(debug=True)
